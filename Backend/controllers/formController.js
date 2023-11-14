@@ -65,7 +65,7 @@ const uploadFile = async (
         },
         requestBody: {
           name: resumeFile.originalname,
-          parents: ["1kNSlFMpNDah1DflH4R-cxDTGbty5cLQr"],
+          parents: ["1oQ6nGy-XiNC6z1_CFsNfLJjttd2O7qz5"],
         },
         fields: "id,name,webContentLink",
       });
@@ -78,7 +78,7 @@ const uploadFile = async (
         },
         requestBody: {
           name: imageFile.originalname,
-          parents: ["1kNSlFMpNDah1DflH4R-cxDTGbty5cLQr"],
+          parents: ["1oQ6nGy-XiNC6z1_CFsNfLJjttd2O7qz5"],
         },
         fields: "id,name,webContentLink",
       });
