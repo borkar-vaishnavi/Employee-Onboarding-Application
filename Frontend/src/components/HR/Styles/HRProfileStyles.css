@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Cabin&family=Martel+Sans:wght@200&family=Roboto&display=swap');
+
+.hr-profile-container {
+    background-color: #6674bb;
+    height: 100vh;
+    width: 20%;
+    position: absolute;
+    right: 0;
+}
+
+.hr-profile-container .hr-profile-image {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.hr-profile-container .hr-profile-image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.hr-profile-container .hr-details {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.hr-profile-container .hr-details .hr-headline {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.hr-profile-container .hr-details p {
+    font-family: 'Cabin', sans-serif;
+}
+
+.hr-profile-container .hr-details .personal-details {
+    font-size: 20px;
+}
+
+.hr-profile-container .hr-details .hr-logout-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    width: 50%;
+    margin-left: 24%;
+}
+
+.hr-profile-container .hr-details .hr-logout-button:hover {
+    background-color: #45a049;
+}

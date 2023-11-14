@@ -1,0 +1,141 @@
+.head-hr-profile {
+    height: 100vh;
+    width: 26%;
+    background-color: #c4c4c4;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.head-hr-profile .head-hr-background img {
+    width: 280px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 0.7rem;
+}
+
+.head-hr-profile .head-hr-profile-picture {
+    position: relative;
+    text-align: center;
+    margin-bottom: -75px;
+    z-index: 1;
+}
+
+.head-hr-profile .head-hr-profile-picture h1 {
+    margin-bottom: 10px;
+    color: #a303a0;
+}
+
+.head-hr-profile .head-hr-profile-picture .circular-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+}
+
+.head-hr-logout-button {
+    background-color: #c4c4c4;
+    color: #a303a0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 1.5rem;
+    border: 4px solid #9292dc;
+    margin-top: 10px;
+
+}
+
+.head-hr-logout-button {
+    background: linear-gradient(to bottom right, #a303a0, #f5a0f4);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+.head-hr-logout-button:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.head-hr-logout-button:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.head-hr-about {
+    margin-top: 15px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.head-hr-about h2 {
+    color: #a303a0;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.head-hr-about .contact-info ul {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.head-hr-about .contact-info img {
+    height: 20px;
+}
+
+.head-hr-profile .head-hr-about .contact-info .profile {
+    display: flex;
+    flex-direction: row;
+    margin: 0.8rem;
+
+}
+
+.head-hr-profile .head-hr-about .contact-info .bd {
+    display: flex;
+    flex-direction: row;
+    margin: 0.8rem;
+
+}
+
+.head-hr-profile .head-hr-about .contact-info .call {
+    display: flex;
+    flex-direction: row;
+    margin: 0.8rem;
+
+}
+
+.head-hr-profile .head-hr-about .contact-info .location {
+    display: flex;
+    flex-direction: row;
+    margin: 0.8rem;
+
+}

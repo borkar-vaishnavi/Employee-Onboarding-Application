@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:wght@300&display=swap');
+
+.candidate-details-container .user-profile .interview-round-main-box::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.candidate-details-container .user-profile .interview-round-main-box::-webkit-scrollbar-thumb {
+    background-color: #888;
+}
+
+.candidate-details-container .user-profile .interview-round-main-box::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.candidate-details-container .user-profile .user-candidate-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 30px;
+    padding-right: 80px;
+}
+
+.candidate-details-container .user-profile .user-candidate-image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.candidate-details-container .user-profile .user-details {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    text-align: center;
+}
+
+.candidate-details-container .user-profile .user-details .candidate-logout-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.candidate-details-container .user-profile .user-details .candidate-logout-button:hover {
+    background-color: #45a049;
+}
+
+.candidate-details-container .user-profile .interview-round-main-box {
+    min-height: 67vh;
+    max-height: 67vh;
+    width: 600px;
+    position: relative;
+    left: 30%;
+    overflow-y: auto;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.candidate-details-container .user-profile .interview-round-main-box .round-specific-box {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 1rem;
+    position: relative;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.candidate-details-container .user-profile .interview-round-main-box .round-specific-box .random-box {
+    height: 70px;
+    width: 70px;
+    background-color: #d9d9d9;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.candidate-details-container .user-profile .interview-round-main-box .round-specific-box .round-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.candidate-details-container .user-profile .interview-round-main-box .round-specific-box .round-info .interview-round-number {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.candidate-details-container .user-profile .interview-round-main-box .round-specific-box .round-info .round-detail {
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 550;
+}
+
+.candidate-details-container .user-profile .interview-round-main-box .round-specific-box .round-info .evaluation {
+    text-decoration: none;
+    color: #636cff;
+}
+
+.candidate-details-container .user-profile .interview-round-main-box .round-specific-box .status {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 30px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: #3bc9db;
+    color: black;
+}
+
+.candidate-details-container .user-profile .interview-round-main-box .round-specific-box .status.Approved {
+    background-color: #35b47f;
+}
+
+.candidate-details-container .user-profile .interview-round-main-box .round-specific-box .status.Ongoing {
+    background-color: #2dd4bf;
+}
+
+.candidate-details-container .user-profile .interview-round-main-box .round-specific-box .mark-attempted button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin-top: 25px;
+}
+
+.candidate-details-container .user-profile .interview-round-main-box .round-specific-box .mark-attempted button:hover {
+    background-color: #45a049;
+}
+
+.candidate-details-container .user-profile .candidate-button-container {
+    position: absolute;
+    top: 37%;
+    right: 6%;
+}
+
+.candidate-details-container .user-profile .candidate-button-container .candidate-onboarding-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.candidate-details-container .user-profile .candidate-button-container .candidate-onboarding-button:hover {
+    background-color: rgb(0, 132, 255);
+}
