@@ -1,2 +1,2 @@
-const backendURL = "http://localhost:8080";
+const backendURL = "https://employee-onboarding-application.vercel.app/";
 export default backendURL;
